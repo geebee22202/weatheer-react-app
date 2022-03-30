@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 import "./Weather.css";
 // import { Puff } from "react-loader-spinner";
 
@@ -83,6 +83,6 @@ export default function Weather(props) {
     </div>
   );
 }
-{
+
   /* <Puff color="#00BFFF" height={100} width={100} timeout={3000} />; */
-}
+
