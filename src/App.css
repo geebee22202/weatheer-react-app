@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body {
+  padding-top: 30px;
+  font-family: Roboto, arial, sans-serif;
+}
+
+h1 {
+  color: #17252ad0;
+  font-size: 30px;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 16px;
+  list-style: none;
+  color: #3aafa9;
+  padding: 0;
+  margin: 0;
+  line-height: 19px;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
